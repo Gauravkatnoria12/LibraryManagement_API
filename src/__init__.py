@@ -15,7 +15,8 @@ async def life_span(app: FastAPI):
 app = FastAPI(
   title="BookEra",
   description="A REST API for Web service.",
-  version = version
+  version = version,
+  lifespan= life_span
 )
 app.include_router(route)
 
