@@ -1,10 +1,10 @@
 books = [
   {
+    "id": 1,
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "publication_year": 1960,
-    "description": "The story of a young girl named Scout growing up in a racially divided Southern town, exploring themes of injustice and innocence.",
-    "id": 1
+    "description": "The story of a young girl named Scout growing up in a racially divided Southern town, exploring themes of injustice and innocence."
   },
   {
     "id": 2,
