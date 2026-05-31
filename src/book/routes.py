@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Query, status
-from .schemas import BookCreate, BookResponse    # Schemas & Validation
-from .data import books    # Database
+from .schema import BookCreate, BookResponse    # Schemas & Validation
+from .temp_db import books    # Database
 from typing import Optional    # Optional import
 
 route = APIRouter(prefix="/BookEra", tags=["api"])
