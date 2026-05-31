@@ -54,7 +54,7 @@ def get_book(book_id : int):
 
 # Filter Books by name or year
 
-@route.get("/filter")
+@route.get("/filter", response_model=list[BookResponse])
 def filter_books(name: Optional[str] = Query(default=None), year: int = Query(default=None)):
     filtered = books
     if name:
